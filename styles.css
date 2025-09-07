@@ -1,0 +1,31 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;   
+}
+h1{
+    color: rgb(68, 66, 66);
+    font-size: 2rem;
+    margin-bottom: 20px;
+    text-shadow: 0px 0px 10px gray ;
+}
+.sub-containers{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; /*Horizontal*/
+    align-items: center;/*Vertical*/
+}
+.imag-container{
+    margin: 15px;
+}
+.imag-container img{
+    border-radius: 100%;
+    width: 200px;
+    height: 200px;
+    box-shadow: 0px 0px 10px black;
+}
+
+.imag-container img:hover{
+    transform: scale(90%);
+    box-shadow: 0px 0px 15px rgb(241, 6, 124);
+}
